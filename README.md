@@ -7,6 +7,7 @@ Being a kid of that time, and one interested in sounds and music, I felt buildin
 ## Footprint
 
 ![Layout](/images/boardlayout.png)
+
 The chip is a 28-DIP and has the following measurements: 
 
 - 1.78 Mm (0.07 In) Pitch
