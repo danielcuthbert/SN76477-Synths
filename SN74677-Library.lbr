@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SN76477NOISEGENERATOR" urn="urn:adsk.eagle:footprint:16235601/3">
+<description>28-DIP, 1.78 mm (0.07 in) pitch, 10.16 mm (0.40 in) span, 25.15 X 8.89 X 5.08 mm body
+&lt;p&gt;28-pin DIP package with 1.78 mm (0.07 in) pitch, 10.16 mm (0.40 in) span with body size 25.15 X 8.89 X 5.08 mm&lt;/p&gt;</description>
+<circle x="-6.2606" y="11.57" radius="0.25" width="0" layer="21"/>
+<wire x1="-4.445" y1="12.5006" x2="-4.445" y2="12.575" width="0.12" layer="21"/>
+<wire x1="-4.445" y1="12.575" x2="4.445" y2="12.575" width="0.12" layer="21"/>
+<wire x1="4.445" y1="12.575" x2="4.445" y2="12.5006" width="0.12" layer="21"/>
+<wire x1="-4.445" y1="-12.5006" x2="-4.445" y2="-12.575" width="0.12" layer="21"/>
+<wire x1="-4.445" y1="-12.575" x2="4.445" y2="-12.575" width="0.12" layer="21"/>
+<wire x1="4.445" y1="-12.575" x2="4.445" y2="-12.5006" width="0.12" layer="21"/>
+<wire x1="4.445" y1="-12.575" x2="-4.445" y2="-12.575" width="0.12" layer="51"/>
+<wire x1="-4.445" y1="-12.575" x2="-4.445" y2="12.575" width="0.12" layer="51"/>
+<wire x1="-4.445" y1="12.575" x2="4.445" y2="12.575" width="0.12" layer="51"/>
+<wire x1="4.445" y1="12.575" x2="4.445" y2="-12.575" width="0.12" layer="51"/>
+<pad name="1" x="-5.08" y="11.57" drill="0.7532" diameter="1.3532"/>
+<pad name="2" x="-5.08" y="9.79" drill="0.7532" diameter="1.3532"/>
+<pad name="3" x="-5.08" y="8.01" drill="0.7532" diameter="1.3532"/>
+<pad name="4" x="-5.08" y="6.23" drill="0.7532" diameter="1.3532"/>
+<pad name="5" x="-5.08" y="4.45" drill="0.7532" diameter="1.3532"/>
+<pad name="6" x="-5.08" y="2.67" drill="0.7532" diameter="1.3532"/>
+<pad name="7" x="-5.08" y="0.89" drill="0.7532" diameter="1.3532"/>
+<pad name="8" x="-5.08" y="-0.89" drill="0.7532" diameter="1.3532"/>
+<pad name="9" x="-5.08" y="-2.67" drill="0.7532" diameter="1.3532"/>
+<pad name="10" x="-5.08" y="-4.45" drill="0.7532" diameter="1.3532"/>
+<pad name="11" x="-5.08" y="-6.23" drill="0.7532" diameter="1.3532"/>
+<pad name="12" x="-5.08" y="-8.01" drill="0.7532" diameter="1.3532"/>
+<pad name="13" x="-5.08" y="-9.79" drill="0.7532" diameter="1.3532"/>
+<pad name="14" x="-5.08" y="-11.57" drill="0.7532" diameter="1.3532"/>
+<pad name="15" x="5.08" y="-11.57" drill="0.7532" diameter="1.3532"/>
+<pad name="16" x="5.08" y="-9.79" drill="0.7532" diameter="1.3532"/>
+<pad name="17" x="5.08" y="-8.01" drill="0.7532" diameter="1.3532"/>
+<pad name="18" x="5.08" y="-6.23" drill="0.7532" diameter="1.3532"/>
+<pad name="19" x="5.08" y="-4.45" drill="0.7532" diameter="1.3532"/>
+<pad name="20" x="5.08" y="-2.67" drill="0.7532" diameter="1.3532"/>
+<pad name="21" x="5.08" y="-0.89" drill="0.7532" diameter="1.3532"/>
+<pad name="22" x="5.08" y="0.89" drill="0.7532" diameter="1.3532"/>
+<pad name="23" x="5.08" y="2.67" drill="0.7532" diameter="1.3532"/>
+<pad name="24" x="5.08" y="4.45" drill="0.7532" diameter="1.3532"/>
+<pad name="25" x="5.08" y="6.23" drill="0.7532" diameter="1.3532"/>
+<pad name="26" x="5.08" y="8.01" drill="0.7532" diameter="1.3532"/>
+<pad name="27" x="5.08" y="9.79" drill="0.7532" diameter="1.3532"/>
+<pad name="28" x="5.08" y="11.57" drill="0.7532" diameter="1.3532"/>
+<text x="-1.27" y="-7.62" size="1.27" layer="21" rot="R90">Texas Instruments</text>
+<text x="1.27" y="0" size="1.27" layer="21" rot="R90">SN76477 </text>
+</package>
+</packages>
+<packages3d>
+<package3d name="DIP1016W54P178L2515H508Q28B" urn="urn:adsk.eagle:package:16235572/6" type="model">
+<description>28-DIP, 1.78 mm (0.07 in) pitch, 10.16 mm (0.40 in) span, 25.15 X 8.89 X 5.08 mm body
+&lt;p&gt;28-pin DIP package with 1.78 mm (0.07 in) pitch, 10.16 mm (0.40 in) span with body size 25.15 X 8.89 X 5.08 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SN76477NOISEGENERATOR"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SN76477SYMBOL">
+<description>The SN76477 is a monolithic IC that creates the most amazing noise.</description>
+<pin name="1" x="-33.02" y="0" length="middle" rot="R270"/>
+<pin name="2" x="-27.94" y="0" length="middle" rot="R270"/>
+<pin name="3" x="-22.86" y="0" length="middle" rot="R270"/>
+<pin name="4" x="-17.78" y="0" length="middle" rot="R270"/>
+<pin name="5" x="-12.7" y="0" length="middle" rot="R270"/>
+<pin name="6" x="-7.62" y="0" length="middle" rot="R270"/>
+<pin name="7" x="-2.54" y="0" length="middle" rot="R270"/>
+<pin name="8" x="2.54" y="0" length="middle" rot="R270"/>
+<pin name="9" x="7.62" y="0" length="middle" rot="R270"/>
+<pin name="10" x="12.7" y="0" length="middle" rot="R270"/>
+<pin name="11" x="17.78" y="0" length="middle" rot="R270"/>
+<pin name="12" x="22.86" y="0" length="middle" rot="R270"/>
+<pin name="13" x="27.94" y="0" length="middle" rot="R270"/>
+<pin name="14" x="33.02" y="0" length="middle" rot="R270"/>
+<pin name="15" x="33.02" y="12.7" length="middle" rot="R90"/>
+<pin name="16" x="27.94" y="12.7" length="middle" rot="R90"/>
+<pin name="17" x="22.86" y="12.7" length="middle" rot="R90"/>
+<pin name="18" x="17.78" y="12.7" length="middle" rot="R90"/>
+<pin name="19" x="12.7" y="12.7" length="middle" rot="R90"/>
+<pin name="20" x="7.62" y="12.7" length="middle" rot="R90"/>
+<pin name="21" x="2.54" y="12.7" length="middle" rot="R90"/>
+<pin name="22" x="-2.54" y="12.7" length="middle" rot="R90"/>
+<pin name="23" x="-7.62" y="12.7" length="middle" rot="R90"/>
+<pin name="24" x="-12.7" y="12.7" length="middle" rot="R90"/>
+<pin name="25" x="-17.78" y="12.7" length="middle" rot="R90"/>
+<pin name="26" x="-22.86" y="12.7" length="middle" rot="R90"/>
+<pin name="27" x="-27.94" y="12.7" length="middle" rot="R90"/>
+<pin name="28" x="-33.02" y="12.7" length="middle" rot="R90"/>
+<wire x1="-33.02" y1="10.16" x2="33.02" y2="10.16" width="0.254" layer="94"/>
+<wire x1="33.02" y1="10.16" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="2.54" x2="-33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-33.02" y1="2.54" x2="-33.02" y2="10.16" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.27" layer="95">TI SN76477</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SN76477NOISEGENERATOR" uservalue="yes">
+<description>The SN76477 is a complex sound generator in the form of a monolithic chip. &lt;b&gt;It rocks.&lt;/b&gt;
+
+
+&lt;p&gt;Loved Space Invaders? well then you've had the pleasure of listening to the SN76477.&lt;/p&gt;
+&lt;p&gt;The SN76477 generates complex audio signal waveforms by combining the outputs of a low frequency oscillator, variable frequency (voltage controlled) oscillator (VCO) and noise source, modulating the resulting composite signal with a selected envelope and, finally, adjusting the signal's attack and decay periods. &lt;br&gt;At each stage, the process can be controlled at the programming inputs of the signal modification and generation circuits, using control voltages, logic levels, or different resistor and capacitor values.&lt;/p&gt;
+&lt;H4&gt; SN76477 PIN FUNCTIONS AND COMPONENT VALUES&lt;/H4&gt;
+&lt;br&gt;&lt;i&gt;&lt;a href="https://makezine.com/projects/space-invaders-synthesizer/"&gt;Make Magazine&lt;/a&gt; kindly made this list, thank you!&lt;/i&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1. Logic input. Applies a sound envelope in conjunction with pin 28.&lt;/li&gt;
+
+&lt;li&gt;2. Negative ground.&lt;/li&gt;
+
+&lt;li&gt;3. External clock input for noise generator (optional). Maximum 10V.&lt;/li&gt;
+
+&lt;li&gt;4. Closing the switch enables the internal noise clock. The 47K resistor may be increased up to 100K to get a lower-frequency noise.&lt;/li&gt;
+
+&lt;li&gt;5. Low-pass noise filter adjustment.&lt;/li&gt;
+
+&lt;li&gt;6. Low-pass noise filter range.&lt;/li&gt;
+
+&lt;li&gt;7. Decay activation switch and adjustment. Determines the discharge time of the attack/decay range capacitor applied to pin 8. Open switch causes instant-off (no decay time).&lt;/li&gt;
+
+&lt;li&gt;8. Attack/decay range.&lt;/li&gt;
+
+&lt;li&gt;9. Logic input. Logic high inhibits sound output, logic low (or open switch) enables sound, and high-low transition with the pushbutton triggers the one-shot function. If the input goes high during a sound, the sound will be interrupted. Envelope selection pin 1 must be high and pin 28 must be low for the one-shot to work.&lt;/li&gt;
+
+&lt;li&gt;10. Attack activation switch and adjustment. Determines the charge time of the attack/decay range capacitor applied to pin 8. Open switch causes instant-on (no attack time).&lt;/li&gt;
+
+&lt;li&gt;11. Audio output level.&lt;/li&gt;
+
+&lt;li&gt;12. Feedback from amplifier output.&lt;/li&gt;
+
+&lt;li&gt;13. Amplifier output to base of transistor.&lt;/li&gt;
+
+&lt;li&gt;14. 9VDC power input. Also supplies collector of transistor.&lt;/li&gt;
+
+&lt;li&gt;15. 5VDC power input if pin 14 is unconnected, or 5VDC power output if 9VDC is applied to pin 14.&lt;/li&gt;
+
+&lt;li&gt;16. External VCO input, or internal VCO adjustment. Maximum range of external source: 0V to 2.35V. Exceeding this range saturates the audio output and causes distortion.&lt;/li&gt;
+
+&lt;li&gt;17. VCO range.&lt;/li&gt;
+
+&lt;li&gt;18. VCO activation switch and adjustment.&lt;/li&gt;
+
+&lt;li&gt;19. Pitch adjustment via pulse-width modulation of the VCO output. Leaving the switch open gives a 50% duty cycle of the VCO.&lt;/li&gt;
+
+&lt;li&gt;20. Super-low-frequency oscillator activation switch and adjustment.&lt;/li&gt;
+
+&lt;li&gt;21. Super-low-frequency oscillator range.&lt;/li&gt;
+
+&lt;li&gt;22. Logic input. Logic high controls VCO with internal capacitors, logic low selects external control with pin 16.&lt;/li&gt;
+
+&lt;li&gt;23. One-shot duration range.&lt;/li&gt;
+
+&lt;li&gt;24. One-shot duration adjustment.&lt;/li&gt;
+
+&lt;li&gt;25. Logic input. Logic high selects Mixer B.&lt;/li&gt;
+
+&lt;li&gt;26. Logic input. Logic high selects Mixer A.&lt;/li&gt;
+
+&lt;li&gt;27. Logic input. Logic high selects Mixer C.&lt;/li&gt;
+
+&lt;li&gt;28. Logic input. Applies a sound envelope in conjunction with pin 1.&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;The mixing of sound sources is controlled by the logic states of pins 25, 26, and 27.
+
+After setting an envelope for your sound (i.e. attack, sustain, and decay) you decide how to apply it by setting logic states of pins 1 and 28.
+
+ &lt;b&gt;Have fun and make music. &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SN76477SYMBOL" x="-2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="SN76477" package="SN76477NOISEGENERATOR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16235572/6"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
